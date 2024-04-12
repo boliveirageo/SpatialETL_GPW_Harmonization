@@ -1,6 +1,6 @@
 
 
-# Integrated Approach to Global Land Use and Land Cover Data Harmonization
+# Integrated Approach to Global Land Use and Land Cover Reference Data Harmonization
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Harmonization of global reference samples and EO/gridded datasets, aligning with GPW classes, to optimize their integration into the GPW machine learning workflow 
@@ -9,7 +9,7 @@ This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
 
 
-This work only includes vector data in geoparquet and geopackage format
+This work only includes vector data in Geoparquet and geopackage format
 
 **For any questions, please refer to our [FAQs](https://github.com/maja601/EuroCrops/wiki/FAQs) or use the Discussions/Issues to reach out to us.**
 
@@ -63,7 +63,7 @@ In this work, the following databases were used:
 - [WorldCereal samples (Global)](https://zenodo.org/communities/worldcereal-rdm?page=1&size=20)
 - [DynamicWorld Samples (Global)](https://doi.pangaea.de/10.1594/PANGAEA.933475)
 - [CropHarvest samples (Global)](https://github.com/nasaharvest/cropharvest)
-- [EuroCrops Samples (Europe)](https://github.com/maja601/EuroCrops)
+- [EuroCrops Samples](https://github.com/maja601/EuroCrops)
 
 
 ## GitHub project structure <a name="github_structure"></a>
@@ -75,10 +75,10 @@ In this work, the following databases were used:
 ├──harmonized_datasets
       └── data_processed_qa
           └──vector file
-          │      ├──parquet
-          │      │   └── Link to parquet file
-          │      └──geopackage
-          │          └── Link to geopacke file
+                ├──parquet
+                    └── Link to parquet file
+                └──geopackage
+                    └── Link to geopacke file
       └── raw data
           ├──raster file
           └──vector file
@@ -92,7 +92,7 @@ In this work, the following databases were used:
 
 ## Download data<a name="Download_data"></a>
 
-The vector data is now available via [google drive Global Pasture Watch Project]().
+The vector data is now available via [google drive de project]().
 
 
 ## Reference<a name="reference"></a>
