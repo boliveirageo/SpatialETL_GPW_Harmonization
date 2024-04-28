@@ -57,9 +57,9 @@ This example the column in output harmonization data
 In this work, the following databases were used:
 - [CONUS Validation samples (U.S)](https://www.usgs.gov/special-topics/lcmap/lcmap-conus-reference-data)
 - [MapBiomas samples (Brazil)](https://zenodo.org/record/5136666#.ZEE08HpBwXc)
-- [LUCAS samples (Europe)](https://land.copernicus.eu/imagery-in-situ/lucas)
-- [GeoWiki samples (Global)](https://doi.pangaea.de/10.1594/PANGAEA.873912)
-- [PREDICTS database samples (Global)](https://github.com/maja601/EuroCrops/wiki/Denmark)
+- [LUCAS samples (Europe)](https://data.jrc.ec.europa.eu/dataset/f85907ae-d123-471f-a44a-8cca993485a2)
+- [GeoWiki samples (Global)](https://doi.pangaea.de/10.1594/PANGAEA.869680?format=html#download)
+- [PREDICTS database samples (Global)](https://data.nhm.ac.uk/dataset/the-2016-release-of-the-predicts-database)
 - [WorldCereal samples (Global)](https://zenodo.org/communities/worldcereal-rdm?page=1&size=20)
 - [DynamicWorld Samples (Global)](https://doi.pangaea.de/10.1594/PANGAEA.933475)
 - [CropHarvest samples (Global)](https://github.com/nasaharvest/cropharvest)
@@ -70,22 +70,16 @@ In this work, the following databases were used:
 ```
 ├──ipynb
 │     └── Code in jupyter notebook from python
-├──original_database
-│      └── Link to original database
 ├──harmonized_datasets
       └── data_processed_qa
           └──vector file
                 ├──parquet
                     └── Link to parquet file
-                └──geopackage
-                    └── Link to geopacke file
       └── raw data
-          ├──raster file
           └──vector file
                 ├──parquet
                     └── Link to parquet file
-                └──geopackage
-                    └── Link to geopackage file
+                
 ```
 
 
