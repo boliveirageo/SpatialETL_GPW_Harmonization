@@ -64,6 +64,7 @@ In this work, the following databases were used:
 - [DynamicWorld Samples (Global)](https://doi.pangaea.de/10.1594/PANGAEA.933475)
 - [CropHarvest samples (Global)](https://github.com/nasaharvest/cropharvest)
 - [EuroCrops Samples](https://github.com/maja601/EuroCrops)
+- [GLanCE Samples](https://beta.source.coop/boston-university/bu-glance/)
 
 
 ## GitHub project structure <a name="github_structure"></a>
