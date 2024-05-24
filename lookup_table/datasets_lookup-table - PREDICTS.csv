@@ -1,0 +1,12 @@
+Projecting Responses of Ecological Diversity In Changing Terrestrial Systems (PREDICTS),,,
+Predominant_land_use,gpw_class,weight,obs
+Primary vegetation,0,3,
+Pasture,2,3,
+Cropland,3,na,
+Secondary vegetation (indeterminate age),0,2,
+Plantation forest,0,1,
+Intermediate secondary vegetation,0,2,
+Young secondary vegetation,0,1,
+Mature secondary vegetation,0,1,
+Urban,0,1,
+Cannot decide,0,na,

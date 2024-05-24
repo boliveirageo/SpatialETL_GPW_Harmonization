@@ -1,0 +1,56 @@
+DYNAMIC WORLD,,,,,,
+code,class,description,examples,gpw_class,weight,obs
+0,No data,left unmarked,-,0,0,
+1,Water,"• Water is present in the image.
+• Contains little-to-no sparse vegetation, no rock outcrop, and no built-up features like docks.
+• Does not include land that can or has previously been covered by water.","• Rivers
+• Ponds & Lakes
+• Ocean
+• Flooded Salt Pans",0,0,
+2,Trees,"• Any significant clustering of dense vegetation, typically with a closed or dense canopy.
+• Taller and darker than surrounding vegetation (if surrounded by other vegetation).","• Wooded vegetation
+• Dense green shrubs
+• Cluster of dense, tall vegetation within savannas
+• Plantations such as apples, bananas, citrus, and rubber
+• Swamp (dense/tall vegetation with no obvious water)
+• Any mix of the above
+• Any burned areas of the above",0,1,
+3,Grass,"• Open areas covered in homogenous grasses with little to no taller vegetation.
+• Other homogenous areas of grass-like vegetation (blade-type leaves) that appear different from trees and shrubland.
+• Wild cereals and grasses with no obvious human plotting (i.e. not a structured field).","• Natural meadows and fields with sparse or no tree cover
+• Open savanna with little to no tree cover
+• Parks, golf courses, human manicured lawns, including large fields in urban settings like soccer and baseball.
+• Tree cut-throughs for power lines, gas etc.
+• Pastures
+• Reeds and marshes with no obvious flooding",2,3,"From cultivated to natural grasslands, all mixed up"
+4,Flooded vegetation,"• Areas of any type of vegetation with obvious intermixing of water.
+• Do not assume an area is flooded if flooding is observed in another image.
+• Seasonally flooded areas that are a mix of grass/shrub/trees/bare ground.","• Flooded mangroves
+• Emergent vegetation",0,1,
+5,Crops,"• Human planted/plotted cereals, grasses, and crops.","• Corn, wheat, soy, etc.
+• Hay and fallow plots of structured land",3,3,
+6,Shrub & Scrub,"• Mix of small clusters of plants or individual plants dispersed on a landscape that shows exposed soil and rock.
+• Scrub-filled clearings within dense forests that are clearly not taller than trees. Appear grayer/browner due to less dense leaf cover.","• Moderate to sparse cover of bushes, shrubs, and tufts of grass
+• Savannas with very sparse grasses, trees, or other plants",1,2,
+7,Built area,"• Clusters of human-made structures or individual very large human-made structures.
+• Contained industrial, commercial, and private building, and the associated parking lots.
+• A mixture of residential buildings, streets, lawns, trees, isolated residential structures or buildings surrounded by vegetative land covers.
+• Major road and rail networks outside of the predominant residential areas.
+• Large homogeneous impervious surfaces, including parking structures, large office buildings, and residential housing developments containing clusters of cul-de-sacs.","• Cluster of houses, can include smalls lawns or small patches of trees can be included
+• Dense villages, town, and cityscape (buildings and roads together)
+• Clusters of paved roads and large highways
+• Asphalt and other human-made surfaces",0,0,
+8,Bare ground,"• Areas of rock or soil containing very sparse to no vegetation.
+• Large areas of sand and deserts with no to little vegetation.
+• Large individual or dense networks of dirt roads.","• Exposed rock
+• Exposed soil
+• Desert and sand dunes
+• Dry salt flats and salt pans
+• Dried lake bottoms
+• Mines
+• Large empty lots in urban areas",0,0,
+9,Snow & Ice,"• Large homogenous areas of thick snow or ice, typically only in mountain areas or highest latitudes.
+• Large homogenous areas of snowfall.","• Glaciers
+• Permanent snowpack
+• Snowfall",0,0,
+10,Cloud,-,-,0,0,

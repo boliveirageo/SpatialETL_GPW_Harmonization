@@ -1,0 +1,18 @@
+Global Land Cover Training Dataset - Global Land Cover Estimation (GLanCE),,,,,
+Level 1,Level 2,Description,gpw_class,weight,obs
+Water (1),Water (1),"Areas covered with water throughout the year: streams, canals, lakes, reservoirs, oceans.",0,1,
+Ice/snow (2),Ice/snow (2),Land areas with snow and ice cover greater than 50% throughout the year.,0,1,
+Developed (3),Developed (3),"Areas of intensive use; land covered with structures, including any land functionally related to developed/built-up activity.",0,1,
+Barren/sparsely vegetated (4),,"Land comprised of natural occurrences of soils, sand, or rocks where less than 10% of the area is vegetated.",0,1,
+,Soil (4),Land covered with less than 10% vegetation and dominated by soil.,0,1,
+,Rock (5),Land covered with less than 10% vegetation and dominated by rocks.,0,1,
+,Beach/sand (6),Land covered with less than 10% vegetation and dominated by beach/sand.,0,1,
+Trees (5),,"Land where tree cover is greater than 30%. Note that cleared trees (i.e., clear-cuts) are mapped according to current cover (e.g., barren/sparsely vegetated, shrubs, or herbaceous).",0,1,
+,Deciduous (7),Land with tree cover greater than 30% and all trees present are deciduous.,0,1,
+,Evergreen (8),Land with tree cover greater than 30% and all trees present are evergreen.,0,1,
+,Mixed (9),Land with tree cover greater than 30% and neither deciduous nor evergreen trees dominate.,0,1,
+Shrub (6),Shrub (10),"Land with less than 30% tree cover, where total vegetation cover exceeds 10% and shrub cover is greater than 10%.",1,3,
+Herbaceous (7),,"Land covered by herbaceous plants. Total vegetation cover exceeds 10%, tree cover is less than 30%, and shrubs comprise less than 10% of the area.",na,na,Use level 2
+,Grassland (11),Herbaceous land covered with grass.,2,3,Mix of natural and seeded grasslands
+,Agriculture (12),Herbaceous land covered with cultivated cropland.,3,na,
+,Moss/lichen (13),Herbaceous land covered with lichen and/or moss.,1,1,

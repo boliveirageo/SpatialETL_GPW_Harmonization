@@ -1,0 +1,12 @@
+Copernicus Global Land Operations (CGLOPS) - GeoWiki 2021 data ,,,,
+CodigoClasse,Class,gpw_class,weight,obs
+10,Trees,0,1,
+20,Shrubs,1,2,Mixed of natural shrublands with grasses and other wooded lands
+30,Grass,2,3,Mixed of natural and seeded grasslands
+40,Annual Crop,3,1,
+50,Built Up,0,3,
+60,Bare soil,0,0,
+70,Snow or Ice,0,0,
+80,Water,0,0,
+90,Herbaceous wetland,1,2,
+100,Lichen or moss,0,1,

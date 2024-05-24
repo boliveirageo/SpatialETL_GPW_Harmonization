@@ -1,0 +1,12 @@
+Geo-Wiki 2011-2012 crowdsourcing campaigns,,,,,
+code,Description,Definition,gpw_class,weight,obs
+1,Tree Cover,Areas covered by trees. This includes unmanaged and managed forests and plantations,0,1,
+2,Shrub Cover,Areas covered with shrubs or bushes,1,2,
+3,Herbaceous Vegetation / Grassland,"Areas covered by grasses, e.g. natural grassland or pastureland",2,3,"From cultivated to natural grasslands, all mixed up"
+4,Cultivated and Managed,"Agricultural areas, e.g. maize, rice fields",3,0,
+5,Mosaic: Cultivated and Managed / Natural Vegetation,"Mosaic of agricultural areas as above with natural vegetation (e.g. tree cover, shrub cover)",0,3,
+6,Regularly Flooded / Wetland,Natural ecosystems which are flooded,1,2,It may have some mixture with natural grassland in it (flooded fields)
+7,Urban / Built Up,"All artificial and built up areas, e.g. buildings, streets, etc.",0,3,
+8,Snow and Ice,"Surfaces covered with snow and ice, e.g. high mountains, Arctic, Antarctic",0,0,
+9,Barren,"Bare rock, deserts, bare uncultivated land",0,0,
+10,Open Water,"All water surfaces, e.g. open ocean, natural and artificial lakes, rivers, streams, etc.",0,0,
